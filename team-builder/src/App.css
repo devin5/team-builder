@@ -1,0 +1,99 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp1810625.jpg");
+  font-family: 'Arvo', serif;
+}
+
+.App {
+  text-align: center;
+  
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #2d2357;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+input, select {
+  width: 200px;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;  
+  border: 1px solid #e60d3c;
+  border-radius: 4px;
+}
+
+button {
+  color:white;
+  background: #3d2e94;
+  background-image: linear-gradient(-315deg, #250ea8 40%,#202769 100%);
+  border: 1px solid #ee1212;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #e4d7d7;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.12), 0 2px 2px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.2 ease-in;
+}
+
+.Roster{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.playerCard{
+  color:white;
+  width: 300px;
+  margin:1%;
+  padding: 1%;
+  border:1px solid rgb(243, 240, 240);
+  background-color: rgba(7,33,58,0.4);
+
+}
+.playerCard:hover{
+  background-color: rgba(65, 81, 221, 0.4);
+  transition: 0.4s;
+  
+}
+label{
+  color:white;
+}
+
+h1{
+  color:white;
+}
+
+
+
+
